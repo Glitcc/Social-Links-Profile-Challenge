@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 375px;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    border-radius: 15px;
+}
