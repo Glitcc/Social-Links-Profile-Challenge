@@ -17,7 +17,7 @@ body {
 
 .card {
     text-align: center;
-    background-color: gray;
+    background-color: hsl(0, 0%, 12%);
     width: 100%;
     max-width: 375px;
     padding: 20px 30px;
@@ -30,30 +30,34 @@ body {
     width: 86px;
     height: 86px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin: 20px;
     object-fit: cover;
 }
 
 h2 {
-    margin-top: 10px;
+    /* margin: 10px; */
     font-weight: 600;
 }
 
 .location {
+    margin: 10px;
     font-size: 14px;
     font-weight: 600;
     color: hsl(75, 94%, 57%);
 }
 
 .bio {
+    margin-top: 25px;
     font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .button {
@@ -70,4 +74,5 @@ h2 {
 
 button:hover {
     background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
 }
